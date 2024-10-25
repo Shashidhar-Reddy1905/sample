@@ -84,10 +84,14 @@ header div a {
      background-color: #8662c7;
  }
 
+ main{
+   display: flex;
+ }
  .card {
-   float: left;
-   display: inline-block;
-   width: calc(33% - 10px);
+   
+   /* display: inline-block; */
+   
+   flex-grow:1;
    margin: 10px 5px;
    background-color: white;
  }
@@ -127,4 +131,3 @@ header div a {
  .social .comment {
    background-image: url(./images/comment.png);
  }
- 
