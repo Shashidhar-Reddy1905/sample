@@ -12,5 +12,14 @@ body {
    background-color: #F0F4F8;
    font-weight: 300;
 }
+nav {
+   background-image: url(images/logo.svg);
+   background-size: 60px;
+   background-repeat: no-repeat;
+   background-position: 10px 5px;
+   padding: 20px;
+   height: 100px;
+ }
+
 
 /* add styles here */
