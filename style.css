@@ -20,6 +20,8 @@ nav {
    padding: 20px;
    height: 100px;
  }
-
-
-/* add styles here */
+ 
+ nav li {
+   display: inline-block;
+   list-style-type: none;
+ }
