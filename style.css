@@ -20,8 +20,12 @@ nav {
    padding: 20px;
    height: 100px;
  }
- 
+
  nav li {
    display: inline-block;
    list-style-type: none;
+ }
+
+ nav ul {
+   margin-left: 80px;
  }
