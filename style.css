@@ -14,3 +14,60 @@ body {
 }
 
 /* add styles here */
+/* Navigation Bar */
+nav {
+   background-color: #333; /* Dark background */
+   padding: 10px;
+   text-align: center;
+}
+
+nav a {
+   color: #fff; /* White text color */
+   text-decoration: none;
+   margin: 0 15px;
+   font-size: 18px;
+}
+
+nav a:hover {
+   color: #ddd; /* Light gray on hover */
+}
+
+/* Card Container */
+.card-container {
+   display: flex;
+   gap: 20px;
+   padding: 20px;
+   justify-content: center;
+}
+
+/* Individual Card */
+.card {
+   background-color: #f8f8f8;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   width: 300px;
+   text-align: center;
+}
+
+.card h3 {
+   color: #333;
+   margin-bottom: 10px;
+}
+
+.card p {
+   color: #666;
+}
+/* Hero Image */
+.hero {
+   background-image: url("C:\Users\srava\Downloads\OIP.jpg");
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   font-size: 36px;
+   font-weight: bold;
+}
