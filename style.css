@@ -14,3 +14,98 @@ body {
 }
 
 /* add styles here */
+
+#topbar {
+   background-color: #2C3E50;
+   padding: 1rem 0;
+}
+#topbar ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+}
+#topbar ul li a {
+   color: #FFF;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 1.1rem;
+}
+#topbar ul li a:hover {
+   color: #FFD700;
+}
+
+header div {
+   text-align: center;
+   padding: 4rem 1rem;
+   background-image: url('images/card3.jpg');
+   background-size: cover;
+   background-position: center;
+   color: #FFF;
+}
+
+header h2 {
+   font-size: 2.5rem;
+   font-weight: 800;
+   margin-bottom: 0.5rem;
+   color: #FFFFFF;
+}
+header p {
+   font-size: 1.25rem;
+   margin-bottom: 1rem;
+}
+header a {
+   background-color: #FFD700;
+   color: #2C3E50;
+   padding: 0.75rem 1.5rem;
+   font-weight: 600;
+   text-decoration: none;
+   border-radius: 5px;
+}
+header a:hover {
+   background-color: #FFC300;
+}
+
+main {
+   display: flex;
+   justify-content: space-around;
+   padding: 2rem 1rem;
+   gap: 1.5rem;
+}
+.card {
+   background-color: #FFF;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 30%;
+   text-align: center;
+   overflow: hidden;
+}
+.card img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px 8px 0 0;
+   background-image: url('https://via.placeholder.com/300');
+}
+.card h3 {
+   font-size: 1.5rem;
+   color: #2C3E50;
+   margin: 1rem 0;
+}
+.card .description {
+   font-size: 1rem;
+   color: #5D6D7E;
+   margin: 0.5rem 0;
+}
+.card .social {
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   color: #777;
+   font-size: 0.9rem;
+   margin: 1rem 0;
+}
+.social .heart, .social .comment {
+   display: inline-flex;
+   align-items: center;
+   gap: 0.3rem;
+}
