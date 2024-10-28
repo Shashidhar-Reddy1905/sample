@@ -81,11 +81,23 @@ header div a:hover {
     background-color: #8662c7;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 0 80px;
+}
+
 .card {
-  float: left;
+  flex: 1 1 30%;
+  /* float: left;
   display: inline-block;
   width: calc(33% - 10px);
-  margin: 10px 5px;
+  margin: 10px 5px; */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
   background-color: white;
 }
 
