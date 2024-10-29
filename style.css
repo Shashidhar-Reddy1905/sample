@@ -14,3 +14,181 @@ body {
 }
 
 /* add styles here */
+
+
+/* Global Styles */
+body {
+   font-family: 'Open Sans', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f4;
+   color: #333;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+header {
+   width: 100%;
+   text-align: center;
+   background-image: url('hero-image.jpg'); /* Add your hero image path */
+   background-size: cover;
+   background-position: center;
+   color: white;
+   padding: 4em 0;
+   position: relative;
+}
+
+header h2 {
+   font-size: 2.5em;
+   margin: 0.2em 0;
+}
+
+header p {
+   font-size: 1.2em;
+}
+
+header a {
+   display: inline-block;
+   margin-top: 1em;
+   padding: 0.7em 1.5em;
+   background-color: #333;
+   color: white;
+   text-decoration: none;
+   font-weight: 600;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+}
+
+header a:hover {
+   background-color: #555;
+}
+
+/* Navigation Styles */
+nav#topbar {
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 1em 0;
+   width: 100%;
+   position: sticky;
+   top: 0;
+}
+
+nav#topbar ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+}
+
+nav#topbar ul li {
+   margin: 0 15px;
+}
+
+nav#topbar ul li a {
+   color: white;
+   text-decoration: none;
+   font-weight: 600;
+}
+
+nav#topbar ul li a:hover {
+   color: #ffd700;
+}
+
+/* Card Section */
+main {
+   width: 80%;
+   max-width: 1200px;
+   display: flex;
+   gap: 1.5em;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 2em;
+}
+
+.card {
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   width: 100%;
+   max-width: 320px;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 1.5em;
+}
+
+.card img {
+   width: 100%;
+   height: auto;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+.card h3 {
+   font-size: 1.5em;
+   margin: 0.5em 0;
+   color: #333;
+}
+
+.card .description {
+   font-size: 0.9em;
+   color: #777;
+   padding: 0 1em;
+}
+
+.card .social {
+   display: flex;
+   justify-content: center;
+   gap: 1em;
+   margin: 1em 0;
+}
+
+.card .social span {
+   display: inline-flex;
+   align-items: center;
+   font-weight: bold;
+   color: #333;
+}
+
+.card .social .heart::before {
+   content: '♥ ';
+   color: red;
+}
+
+.card .social .comment::before {
+   content: '💬 ';
+}
+
+/* Card Hover Effect */
+.card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+   main {
+       flex-direction: column;
+       align-items: center;
+   }
+   
+   header h2 {
+       font-size: 2em;
+   }
+}
+
+header {
+   width: 100%;
+   text-align: center;
+   background-image: url('https://plus.unsplash.com/premium_photo-1669646471950-c6b16552ff76');
+   background-size: cover;
+   background-position: center;
+   color: white;
+   padding: 4em 0;
+   position: relative;
+}
+
