@@ -5,13 +5,17 @@ body {
    box-sizing: bordr-box;
    background-color: #F0F4F8;
    font-weight: 300;
-   background-image: url(images/florence.jpg);
-   background-repeat: no-repeat;
-   width: 100%; /* Full width */
+    
   
   
 }
 
+header {
+  background-image: url(images/florence.jpg);
+  background-size: cover;
+  min-height: 600px;
+  width: 100%;
+}
 
 
 
@@ -70,21 +74,22 @@ header div a {
    color: white;
    padding: 10px 20px;
    text-decoration: none;
-   border-radius: 5px;
+   
  }
  
  header div a:hover {
      background-color: #8662c7;
  }
+
+ main {
+  display: flex;
+ }
  /* Note we can use the .card class selector here, as a class has been assigned to the <section> elements. */
 .card {
    float: left;
-   display: inline-block;
    width: calc(33% - 10px);
    margin: 10px 5px;
-   background-color: white;
-   margin-top: 220px;
-   
+   background-color: white;   
    
  }
  .card div {
@@ -96,7 +101,7 @@ header div a {
    width: 100%;
 }
 
-.card div.description {
+.card p.description {
    font-size: 12px;
 }
 
