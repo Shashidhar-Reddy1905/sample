@@ -130,3 +130,9 @@ header div a {
  .social .comment {
    background-image: url(./images/comment.png);
  }
+
+ main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
