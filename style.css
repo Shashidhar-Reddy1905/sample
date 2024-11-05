@@ -58,12 +58,12 @@ nav a:hover {
 .card p {
    color: #666;
 }
-/* Hero Image */
-.hero {
-   background-image: url("C:\Users\srava\Downloads\OIP.jpg");
+/*header */
+head{
+   background-image: url('/workspaces/is-5600-lab-01/images/florence.jpg');
    background-size: cover;
    background-position: center;
-   height: 400px;
+   height: 300px;
    display: flex;
    align-items: center;
    justify-content: center;
