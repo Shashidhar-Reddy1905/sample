@@ -6,6 +6,7 @@ body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
    margin: 0;
    padding: 0;
 }
+
 body {
    font-family: 'Open Sans', sans-serif;
    box-sizing: border-box;
@@ -54,6 +55,6 @@ body {
  
  .social .comment {
    background-image: url(./images/comment.png);
- }
+}
 
 /* add styles here */
