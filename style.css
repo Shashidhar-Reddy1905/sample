@@ -1,16 +1,96 @@
-
-* {
-   box-sizing: border-box;
-}
-body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
-   margin: 0;
-   padding: 0;
-}
+/* General Styles */
 body {
-   font-family: 'Open Sans', sans-serif;
-   box-sizing: border-box;
-   background-color: #F0F4F8;
-   font-weight: 300;
+   margin: 0;
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color: #f4f4f4;
+   color: #333;
 }
 
-/* add styles here */
+/* Navigation Bar */
+nav {
+   background-color: #333;
+   color: white;
+   padding: 15px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+   margin: 0 10px;
+   font-weight: bold;
+}
+
+nav a:hover {
+   color: #ff9800;
+}
+
+/* Hero Section */
+.hero {
+   background-image: url('path-to-hero-image.jpg'); /* Replace with the actual image path */
+   background-size: cover;
+   background-position: center;
+   height: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   text-align: center;
+   font-size: 2.5rem;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Card Container */
+.card-container {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   padding: 20px;
+}
+
+/* Card Box */
+.card {
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   flex: 1;
+   text-align: center;
+}
+
+.card h3 {
+   margin-top: 0;
+   font-size: 1.2rem;
+   color: #333;
+}
+
+.card p {
+   font-size: 0.9rem;
+   color: #555;
+}
+
+/* Footer */
+footer {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+   .card-container {
+       flex-direction: column;
+   }
+
+   .card {
+       margin-bottom: 20px;
+   }
+}
