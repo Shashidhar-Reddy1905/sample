@@ -1,16 +1,130 @@
-
+/* Global Reset */
 * {
-   box-sizing: border-box;
-}
-body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
-   margin: 0;
-   padding: 0;
-}
-body {
-   font-family: 'Open Sans', sans-serif;
-   box-sizing: border-box;
-   background-color: #F0F4F8;
-   font-weight: 300;
+	box-sizing: border-box;
 }
 
-/* add styles here */
+body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #F0F4F8;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+	background: url('/images/hero.jpg') no-repeat center center/cover;
+	color: #333;
+	text-align: center;
+	padding: 100px 20px;
+}
+
+header h2 {
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+	font-weight: 800;
+}
+
+header p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+header a {
+	text-decoration: none;
+	padding: 10px 20px;
+	background: #007BFF;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: 600;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	padding: 10px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li {
+	list-style: none;
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+/* Card Styling */
+main {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	padding: 40px 20px;
+}
+
+.card {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	max-width: 300px;
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+}
+
+.card h3 {
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+.card .description {
+	font-size: 0.85rem;
+	margin: 10px 0;
+	color: #555;
+}
+
+.card .social {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 15px;
+	font-size: 0.85rem;
+}
+
+.card .social .heart,
+.card .social .comment {
+	display: inline-block;
+	color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	header {
+		padding: 50px 20px;
+	}
+
+	header h2 {
+		font-size: 2rem;
+	}
+
+	main {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card {
+		max-width: 90%;
+	}
+}
