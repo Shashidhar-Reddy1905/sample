@@ -13,4 +13,7 @@ body {
    font-weight: 300;
 }
 
-/* add styles here */
+/* add styles here */ 
+a{
+   color: red;
+}
