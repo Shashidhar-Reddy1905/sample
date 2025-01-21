@@ -12,7 +12,7 @@ body {
    background-color: #F0F4F8;
    font-weight: 300;
 }
-/* General Reset */
+
 * {
    margin: 0;
    padding: 0;
@@ -24,7 +24,7 @@ body {
    line-height: 1.6;
  }
  
- /* Header */
+ 
  header {
    background-image: url('/workspaces/is-5600-lab-01/images/florence.jpg');
    background-size: cover;
@@ -59,7 +59,7 @@ body {
    background-color: #8662c7;
  }
  
- /* Navigation */
+ 
  nav {
    background-image: url('images/logo.svg');
    background-size: 60px;
@@ -94,7 +94,7 @@ body {
    text-decoration: underline;
  }
  
- /* Cards */
+
  .card {
    float: left;
    display: inline-block;
@@ -102,7 +102,7 @@ body {
    margin: 10px 5px;
    background-color: white;
  }
- 
+
  .card div {
    padding: 20px 5px;
  }
@@ -119,7 +119,7 @@ body {
    font-size: 14px;
  }
  
- /* Social Icons */
+ 
  .social {
    margin-top: 1rem;
    font-size: 12px;
@@ -140,7 +140,7 @@ body {
    background-image: url('./images/comment.png');
  }
  
- /* Flexbox for Cards */
+
  main {
    flex-wrap: wrap;
    gap: 10px;
