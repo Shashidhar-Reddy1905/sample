@@ -13,4 +13,9 @@ body {
    font-weight: 300;
 }
 
+p {
+   cSpell:ignore Lunenburg Santorini;
+    font-size: 16px;
+    color: #333;
+}
 /* add styles here */
